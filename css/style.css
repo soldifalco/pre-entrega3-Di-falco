@@ -240,3 +240,63 @@ body {
     font-weight: bold;
     font-family: "Bebas Neue", cursive;
 }
+
+
+/******************FOOTER*********************/
+
+footer {
+    background-color: black;
+    margin-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.8rem;
+}
+
+footer img {
+    width: 30px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: tomato;
+    margin-right: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.box-footer a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.box-footer a:hover {
+    color: orange;
+}
+
+.box-footer li {
+    list-style-type: none;
+}
+
+.right-area {
+    align-items: center;
+    text-align: center;
+}
+
+.right-area input {
+    border: 3px solid tomato;
+    background-color: orange;
+}
+
+.right-area button {
+    background-color: tomato;
+}
+
+.right-area button:hover {
+    border: 3px solid orange;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
