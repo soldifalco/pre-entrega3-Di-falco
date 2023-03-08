@@ -1,0 +1,90 @@
+header{
+    nav{
+        .logo {
+            color: tomato;
+            font-family: $fontmain;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-shadow: 1px -1px 1px;
+            border-radius: 20px;
+            border: 1px solid tomato;
+            padding-inline: 1rem;
+        }
+        .btn__nav {
+            color: rgb(248, 112, 88);
+            background-color: tomato;
+        }
+        .nav-estilo {
+            color: rgba(255, 166, 0, 0.896);
+            font-family:$fontmain;
+            font-size: 1.5rem;
+            &:hover{
+    color: rgb(185, 98, 6);
+
+            }
+        }
+     }
+
+.banner {
+    width: 100%;
+    height: 600px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .capa {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0, 0.6);
+  
+    }
+    .bienvenida {
+        z-index: 1;
+        width: 100%;
+        max-width: 550px;
+        text-align: center;
+
+        .bienvenida h1 {
+            color: orange;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            text-shadow: 1px -1px 1px tomato;
+            font-family: "Phudu", cursive;
+        }
+        .bienvenida h2 {
+            color: tomato;
+            font-size: 2rem;
+            font-weight: bolder;
+            text-shadow: 2px -2px 2px black;
+            font-family: "Phudu", cursive;
+        }
+       }
+    }
+}
+@keyframes banner {
+    0%,
+    20% {
+        background-image: url("../images/banner-index1.webp");
+    }
+    25%,
+    45% {
+        background-image: url("../images/banner-index2.webp");
+    }
+    50%,
+    70% {
+        background-image: url("../images/banner-index3.webp");
+    }
+    75%,
+    100% {
+        background-image: url("../images/banner-index4.webp");
+    }
+}
+

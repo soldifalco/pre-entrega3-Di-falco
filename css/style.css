@@ -17,7 +17,7 @@ body {
 /*****======navbar con bootstrap=========*/
 
 .nav-estilo {
-    color: rgba(255, 166, 0, 0.896);
+    color: rgba(131, 118, 92, 0.896);
     font-family: "Bebas Neue", cursive;
     font-size: 1.5rem;
 }
@@ -37,7 +37,6 @@ body {
     padding-inline: 1rem;
 }
 
-/*===banner de bienvenida realizado con animations*/
 
 .banner {
     width: 100%;
