@@ -158,3 +158,85 @@ body {
         color: rgba(193, 148, 66, 0.939);
     }
 }
+
+/********SECCIÓN DE PROMOS***********/
+
+.promos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes puff-in-center {
+    0% {
+        transform: scale(2);
+        filter: blur(4px);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.btn--promos {
+    background-color: tomato;
+    border: 2px solid black;
+    color: black;
+    font-weight: 800;
+    font-family: "Aboreto", cursive;
+}
+
+.btn--promos:hover {
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.promos h5 {
+    color: tomato;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px black;
+    font-family: "Bebas Neue", cursive;
+}
+
+.promos p {
+    color: orange;
+    font-size: 0.8;
+    font-weight: 800;
+    text-shadow: 1px -1px 1px black;
+    font-family: "Aboreto", cursive;
+}
+
+.promos b {
+    border: 1px solid orange;
+    padding-inline: 0.8rem;
+    border-radius: 20px;
+}
+
+.card--conocenos {
+    background-color: orangered;
+    color: black;
+    font-family: "Aboreto", cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0.5px -0.5px 0.5px black;
+}
+
+.card--conocenos h5 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.card--conocenos p {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Bebas Neue", cursive;
+}
