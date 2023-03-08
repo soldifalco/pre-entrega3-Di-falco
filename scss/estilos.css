@@ -86,4 +86,47 @@ header .banner .bienvenida .bienvenida h2 {
   75%, 100% {
     background-image: url("../images/banner-index4.webp");
   }
+}
+footer {
+  background-color: black;
+  margin-top: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.8rem;
+}
+footer .box-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: tomato;
+  margin-right: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+footer .box-footer li {
+  list-style-type: none;
+}
+footer .box-footer a {
+  text-decoration: none;
+  color: tomato;
+}
+footer .box-footer a:hover {
+  color: orange;
+}
+footer .right-area {
+  align-items: center;
+  text-align: center;
+}
+footer .right-area imput {
+  border: 3px solid tomato;
+  background-color: orange;
+}
+footer .right-area button {
+  background-color: tomato;
+}
+footer .right-area button:hover {
+  border: 3px solid orange;
+}
+footer .right-area .redes {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
 }/*# sourceMappingURL=estilos.css.map */

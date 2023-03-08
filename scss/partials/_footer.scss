@@ -1,0 +1,49 @@
+footer {
+    background-color: black;
+    margin-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.8rem;
+
+    .box-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $colormain;
+        margin-right: 1.5rem;
+        letter-spacing: 0.1rem;
+
+        li{
+    list-style-type: none;
+
+        }
+      a{
+        text-decoration: none;
+        color: $colormain;
+
+        &:hover{
+    color:$colorsecondary;
+
+        }
+    }
+      }
+        
+      .right-area {
+        align-items: center;
+        text-align: center;
+   imput{
+    border: 3px solid $colormain; 
+    background-color: $colorsecondary;
+   }
+button{
+    background-color: $colormain;
+&:hover{
+    border: 3px solid $colorsecondary;
+
+}
+} 
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}} }
+    
