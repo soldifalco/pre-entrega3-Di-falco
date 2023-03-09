@@ -8,10 +8,10 @@ body {
     background-color: #0d0902ed;
 }
 
+
 /***************MIXIN***********/
 @mixin flex($flex,$justify,$align){
     display: $flex;
     justify-content:$justify ;
     align-items: $align;
 }
-

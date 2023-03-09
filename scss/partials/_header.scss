@@ -1,7 +1,7 @@
 header{
     nav{
         .logo {
-            color: $colormain;
+            color:$colormain;
             font-family: $fontmain;
             font-size: 1.5rem;
             font-weight: bold;
@@ -10,20 +10,23 @@ header{
             border: 1px solid $colormain;
             padding-inline: 1rem;
         }
-        .btn__nav {
-            color: rgb(248, 112, 88);
-            background-color: $colormain;
-        }
+        
         .nav-estilo {
-            color: rgba(255, 166, 0, 0.896);
-            font-family:$fontmain;
+            color: rgba(131, 118, 92, 0.896);
+            font-family: $fontmain;
             font-size: 1.5rem;
             &:hover{
     color: rgb(185, 98, 6);
 
             }
-        }
-     }
+      
+    }
+}
+     
+
+/*************PAG-INDEX***********/
+
+/************BANNER DE BIENVENIDA***********/
 
 .banner {
     width: 100%;
