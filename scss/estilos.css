@@ -15,6 +15,12 @@ header {
   /*************PAG-INDEX***********/
   /************BANNER DE BIENVENIDA***********/
 }
+header nav .btn__nav {
+  background-color: tomato;
+  color: black;
+  border: 2px solid tomato;
+  border-radius: 20px;
+}
 header nav .logo {
   color: tomato;
   font-family: "Phudu", cursive;
@@ -26,8 +32,8 @@ header nav .logo {
   padding-inline: 1rem;
 }
 header nav .nav-estilo {
-  color: rgba(131, 118, 92, 0.896);
-  font-family: "Phudu", cursive;
+  color: orange;
+  font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
 }
 header nav .nav-estilo:hover {
@@ -229,7 +235,7 @@ main .card--conocenos {
   border: 2px solid black;
   box-shadow: 0.5px -0.5px 0.5px black;
 }
-main .card--conocenos .btn-conocenos {
+main .card--conocenos .button-conocenos {
   background-color: black;
   color: orange;
   border: 1px solid black;
@@ -245,4 +251,37 @@ main .card--conocenos p {
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
+}
+
+main .title-page {
+  color: tomato;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Phudu", cursive;
+}
+main .title-page span {
+  font-size: 1.5rem;
+  padding-inline: 1rem;
+  margin-inline: 2rem;
+  border-radius: 20px;
+  font-weight: bolder;
+  box-shadow: 3px -3px 3px tomato;
+}
+main .title-page span:hover {
+  text-shadow: 0px 0px 100px rgb(248, 185, 90);
+}
+main .nosotros-style {
+  color: rgb(249, 193, 90);
+  line-height: 50px;
+  box-shadow: 1px -1px 1px tomato;
+  padding-inline: 1rem;
+  margin-inline: 1rem;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "Gentium Book Plus", serif;
+  letter-spacing: 0.1rem;
+}
+main .nosotros-style:hover {
+  box-shadow: 3px -3px 3px black;
+  color: tomato;
 }/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,39 @@
+main{
+    .title-page{
+        color:$colormain;
+        margin-top: 2rem;
+        text-align: center;
+        font-family: "Phudu", cursive;
+
+        span {
+            font-size: 1.5rem;
+            padding-inline: 1rem;
+            margin-inline: 2rem;
+            border-radius: 20px;
+            font-weight: bolder;
+            box-shadow: 3px -3px 3px $colormain;
+
+            &:hover{
+    text-shadow: 0px 0px 100px rgb(248, 185, 90);
+
+            }
+        }
+    }
+    .nosotros-style {
+        color: rgb(249, 193, 90);
+        line-height: 50px;
+        box-shadow: 1px -1px 1px $colormain;
+        padding-inline: 1rem;
+        margin-inline: 1rem;
+        align-items: center;
+        font-size: 1rem;
+        font-family: $fontelegante;
+        letter-spacing: 0.1rem;
+
+        &:hover {
+            box-shadow: 3px -3px 3px black;
+            color:$colormain;
+        }
+    }
+
+}

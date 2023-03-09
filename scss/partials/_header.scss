@@ -1,5 +1,12 @@
 header{
     nav{
+
+        .btn__nav{
+            background-color: $colormain;
+            color: black;
+            border: 2px solid $colormain;
+            border-radius: 20px;
+        }
         .logo {
             color:$colormain;
             font-family: $fontmain;
@@ -12,8 +19,8 @@ header{
         }
         
         .nav-estilo {
-            color: rgba(131, 118, 92, 0.896);
-            font-family: $fontmain;
+            color: $colorsecondary;
+            font-family: $fontsecondary;
             font-size: 1.5rem;
             &:hover{
     color: rgb(185, 98, 6);
