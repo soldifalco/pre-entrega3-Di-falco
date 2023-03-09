@@ -10,6 +10,7 @@ body {
   background-color: rgba(13, 9, 2, 0.9294117647);
 }
 
+/***************MIXIN***********/
 header nav .logo {
   color: tomato;
   font-family: "Phudu", cursive;
@@ -56,16 +57,16 @@ header .banner .bienvenida {
   max-width: 550px;
   text-align: center;
 }
-header .banner .bienvenida .bienvenida h1 {
-  color: orange;
+header .banner .bienvenida h1 {
+  color: tomato;
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  text-shadow: 1px -1px 1px tomato;
+  text-shadow: 1px -1px 1px;
   font-family: "Phudu", cursive;
 }
-header .banner .bienvenida .bienvenida h2 {
+header .banner .bienvenida h2 {
   color: tomato;
   font-size: 2rem;
   font-weight: bolder;
@@ -104,6 +105,9 @@ footer .box-footer {
 footer .box-footer li {
   list-style-type: none;
 }
+footer .box-footer li img {
+  width: 30px;
+}
 footer .box-footer a {
   text-decoration: none;
   color: tomato;
@@ -129,4 +133,46 @@ footer .right-area .redes {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
+}
+footer .right-area .redes .redes-icon {
+  width: 30px;
+}
+
+main .seccion--title {
+  color: tomato;
+  text-align: center;
+  margin: 3rem;
+  text-shadow: 2px -2px 2px orange;
+  font-family: "Phudu", cursive;
+  font-weight: bold;
+}
+main .servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+main .servicios .servicios--item {
+  text-align: center;
+  color: tomato;
+  font-family: "Phudu", cursive;
+  font-size: 1.5rem;
+  background-color: black;
+}
+main .servicios li {
+  color: tomato;
+  background-color: black;
+  font-family: "Bebas Neue", cursive;
+  animation: servicios 1.5s infinite linear alternate;
+}
+@keyframes servicios {
+  0%, 20% {
+    color: rgb(252, 168, 13);
+  }
+  25%, 45% {
+    color: rgb(190, 103, 9);
+  }
+  50%, 100% {
+    color: rgba(193, 148, 66, 0.939);
+  }
 }/*# sourceMappingURL=estilos.css.map */

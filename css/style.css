@@ -252,9 +252,7 @@ footer {
     font-size: 0.8rem;
 }
 
-footer img {
-    width: 30px;
-}
+
 
 .box-footer {
     display: flex;
@@ -302,12 +300,16 @@ footer img {
     gap: 0.5rem;
 }
 
+
+.e{
+    width: 30px;
+}
 /***************************PAG NOSOTROS*******************/
 
 
 /***********ESTA PÁGINA LA REALICÉ CON GRID DE BOOTSTRAP Y ALGUNOS EFECTOS CON HOVER */
 
-.title-page {
+.title-page{
     color: tomato;
     margin-top: 2rem;
     text-align: center;
