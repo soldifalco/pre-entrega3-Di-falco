@@ -1,15 +1,16 @@
 footer {
   background-color: black;
-  margin-top: 1rem;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 0.8rem;
+  padding-block: 1rem;
+  margin: 1rem;
+  border: 5px solid black;
+  font-size: 1rem;
+  font-family: $fontelegante;
 
   .box-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: $colormain;
-    letter-spacing: 0.1rem;
 
     li {
       list-style-type: none;

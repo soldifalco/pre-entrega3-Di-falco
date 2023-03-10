@@ -62,4 +62,24 @@ main {
       }
     }
   }
+
+  .btn-reservas_menu {
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: orange;
+      font-family: $fontelegante;
+      background-color: black;
+      border: 1px solid $colormain;
+      margin-inline: 1rem;
+      padding-inline: 1rem;
+      &:hover {
+        border: 2px solid orange;
+        color: red;
+        border-radius: 30%;
+        padding-inline: 1rem;
+      }
+    }
+  }
 }
