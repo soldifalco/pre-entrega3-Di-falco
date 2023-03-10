@@ -36,4 +36,46 @@ main {
   }
 }
 
-/************PAG MENU- GRID DE CARTAS**********/
+/************PAG MENU- GRID DE CARTAS DE MENÚ**********/
+
+main {
+  .grid-p1 {
+    @include grid(3, 1rem);
+    margin: 2rem;
+    border: 1px solid;
+    @include flex(flex, center, center);
+
+    .item1 {
+      background-image: url("");
+    }
+    .item2 {
+      background-image: url("");
+    }
+    .item3 {
+      background-image: url("");
+    }
+
+    .grid-items {
+      border: 2px solid $colormain;
+      border-radius: 6px;
+      margin-inline: 2rem;
+      padding-inline: 2rem;
+      background-color: black;
+
+      h5 {
+        color: $colormain;
+        font-family: $fontelegante;
+        font-size: 1.5rem;
+        text-shadow: 1px -1px 1px black;
+        text-align: center;
+      }
+
+      h6 {
+        color: $colorsecondary;
+        font-family: $fontelegante;
+        text-align: center;
+        font-size: 1rem;
+      }
+    }
+  }
+}

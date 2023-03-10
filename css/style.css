@@ -9,6 +9,11 @@ body {
     background-color: #0d0902ed;
 }
 
+p {
+    padding-inline: 2rem;
+    margin-inline: 1rem;
+    border-radius: 6px;
+}
 
 
 /*===========pagina index===========*/
@@ -36,7 +41,6 @@ body {
     border: 1px solid tomato;
     padding-inline: 1rem;
 }
-
 
 .banner {
     width: 100%;
@@ -102,7 +106,6 @@ body {
     font-family: "Phudu", cursive;
 }
 
-
 .btn__nav {
     color: rgb(248, 112, 88);
     background-color: tomato;
@@ -159,6 +162,7 @@ body {
         color: rgba(193, 148, 66, 0.939);
     }
 }
+
 
 /********SECCIÓN DE PROMOS***********/
 
@@ -248,11 +252,9 @@ body {
 footer {
     background-color: black;
     margin-top: 2rem;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 0.8rem;
 }
-
-
 
 .box-footer {
     display: flex;
@@ -300,16 +302,17 @@ footer {
     gap: 0.5rem;
 }
 
-
-.e{
+.e {
     width: 30px;
 }
+
+
 /***************************PAG NOSOTROS*******************/
 
 
 /***********ESTA PÁGINA LA REALICÉ CON GRID DE BOOTSTRAP Y ALGUNOS EFECTOS CON HOVER */
 
-.title-page{
+.title-page {
     color: tomato;
     margin-top: 2rem;
     text-align: center;
@@ -347,7 +350,6 @@ footer {
 }
 
 
-
 /********************MEDIA QUERIES****************/
 
 
@@ -368,6 +370,3 @@ footer {
 
 
 /**********************VERSIÓN MOBILE*******************/
-
-
-

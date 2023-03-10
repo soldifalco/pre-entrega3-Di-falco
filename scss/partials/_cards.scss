@@ -1,127 +1,122 @@
-    
+main {
+  .seccion--title {
+    color: $colormain;
+    text-align: center;
+    margin: 3rem;
+    text-shadow: 2px -2px 2px $colorsecondary;
+    font-family: $fontmain;
+    font-weight: bold;
+  }
+  .servicios {
+    @include flex(flex, center, center);
+    margin-top: 3rem;
 
-    
-    main{
-        .seccion--title {
-            color:$colormain;
-            text-align: center;
-            margin: 3rem;
-            text-shadow: 2px -2px 2px $colorsecondary;
-            font-family: $fontmain;
-            font-weight: bold;
-        }
-       .servicios{
-        @include flex(flex,center,center);
-        margin-top: 3rem;
-
-        .servicios--item {
-            text-align: center;
-            color: $colormain;
-            font-family: $fontmain;
-            font-size: 1.5rem;
-            background-color: black;
-        }
-      li{
-        color: $colormain;
-        background-color: black;
-        font-family: $fontsecondary;
-        animation: servicios 1.5s infinite linear alternate;
-
-        @keyframes servicios {
-            0%,
-            20% {
-                color: rgb(252, 168, 13);
-            }
-            25%,
-            45% {
-                color: rgb(190, 103, 9);
-            }
-            50%,
-            100% {
-                color: rgba(193, 148, 66, 0.939);
-            }
-        }
-      } }
-    
-
-      .promos {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-top: 3rem;
-        animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-   
-        .btn--promos {
-            background-color: $colorsecondary;
-            border: 2px solid black;
-            color: black;
-            font-weight: 800;
-            font-family: "Aboreto", cursive;
-
-            &:hover{
-                background-color: $colorsecondary;
-    border: 1px solid black;
-            }
-        }
-    
-        h5 {
-            color: $colormain;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-shadow: 1px -1px 1px black;
-            font-family: "Bebas Neue", cursive;
-        }
-        p {
-            color: $colorsecondary;
-            font-size: 0.8;
-            font-weight: 800;
-            text-shadow: 1px -1px 1px black;
-            font-family: "Aboreto", cursive;
-        }}
-    
-    @keyframes puff-in-center {
-        0% {
-            transform: scale(2);
-            filter: blur(4px);
-            opacity: 0;
-        }
-        100% {
-            transform: scale(1);
-            filter: blur(0);
-            opacity: 1;
-        }
-    
-   
+    .servicios--item {
+      text-align: center;
+      color: $colormain;
+      font-family: $fontmain;
+      font-size: 1.5rem;
+      background-color: black;
     }
-   
-    
-    .card--conocenos {
-        background-color: $colormain;
-        color: black;
-        font-family: $fontmain;
-        font-size: 1rem;
-        font-weight: bold;
-        border: 2px solid black;
-        box-shadow: 0.5px -0.5px 0.5px black;
+    li {
+      color: $colormain;
+      background-color: black;
+      font-family: $fontsecondary;
+      animation: servicios 1.5s infinite linear alternate;
 
-        .button-conocenos{
-            background-color: black;
-            color: $colorsecondary;
-            border: 1px solid black;
+      @keyframes servicios {
+        0%,
+        20% {
+          color: rgb(252, 168, 13);
         }
-    
-        h5 {
-            font-family: $fontsecondary;
-            font-size: 1.5rem;
-            color: black;
-            font-weight: bold;
+        25%,
+        45% {
+          color: rgb(190, 103, 9);
         }
-   
-        p {
-            color: black;
-            font-size: 1.2rem;
-            font-weight: bold;
-            font-family: $fontsecondary;
+        50%,
+        100% {
+          color: rgba(193, 148, 66, 0.939);
         }
-    } }
-        
+      }
+    }
+  }
+
+  .promos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+
+    .btn--promos {
+      background-color: $colorsecondary;
+      border: 2px solid black;
+      color: black;
+      font-weight: 800;
+      font-family: "Aboreto", cursive;
+
+      &:hover {
+        background-color: $colorsecondary;
+        border: 1px solid black;
+      }
+    }
+
+    h5 {
+      color: $colormain;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-shadow: 1px -1px 1px black;
+      font-family: "Bebas Neue", cursive;
+    }
+    p {
+      color: $colorsecondary;
+      font-size: 0.8;
+      font-weight: 800;
+      text-shadow: 1px -1px 1px black;
+      font-family: "Aboreto", cursive;
+    }
+  }
+
+  @keyframes puff-in-center {
+    0% {
+      transform: scale(2);
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  .card--conocenos {
+    background-color: $colormain;
+    color: black;
+    font-family: $fontmain;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0.5px -0.5px 0.5px black;
+
+    .button-conocenos {
+      background-color: black;
+      color: $colorsecondary;
+      border: 1px solid black;
+    }
+
+    h5 {
+      font-family: $fontsecondary;
+      font-size: 1.5rem;
+      color: black;
+      font-weight: bold;
+    }
+
+    p {
+      color: black;
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-family: $fontsecondary;
+    }
+  }
+}
