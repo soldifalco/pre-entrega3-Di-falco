@@ -1,23 +1,8 @@
 main {
-  .title-page {
-    color: $colormain;
-    margin-top: 2rem;
-    text-align: center;
-    font-family: "Phudu", cursive;
-
-    span {
-      font-size: 1.5rem;
-      padding-inline: 1rem;
-      margin-inline: 2rem;
-      border-radius: 20px;
-      font-weight: bolder;
-      box-shadow: 3px -3px 3px $colormain;
-
-      &:hover {
-        text-shadow: 0px 0px 100px rgb(248, 185, 90);
-      }
-    }
+  .estilo-title {
+    @extend %titulos;
   }
+
   .nosotros-style {
     color: rgb(249, 193, 90);
     line-height: 50px;
@@ -36,31 +21,28 @@ main {
   }
 }
 
-/************PAG MENU- GRID DE CARTAS DE MENÚ**********/
-
 main {
-  .grid-p1 {
+  .estilo-title {
+    @extend %titulos;
+  }
+  .grid {
     @include grid(3, 1rem);
     margin: 2rem;
     border: 1px solid;
+    padding-block: 2rem;
+
     @include flex(flex, center, center);
 
-    .item1 {
-      background-image: url("");
-    }
-    .item2 {
-      background-image: url("");
-    }
-    .item3 {
-      background-image: url("");
-    }
-
     .grid-items {
-      border: 2px solid $colormain;
+      border: 8px solid black;
       border-radius: 6px;
       margin-inline: 2rem;
       padding-inline: 2rem;
       background-color: black;
+      &:hover {
+        border-right: 3px solid $colorsecondary;
+        border-left: 3px solid $colorsecondary;
+      }
 
       h5 {
         color: $colormain;
