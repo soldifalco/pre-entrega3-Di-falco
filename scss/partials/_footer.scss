@@ -2,15 +2,16 @@ footer {
   background-color: black;
   padding-block: 1rem;
   margin: 1rem;
-  border: 5px solid black;
-  font-size: 1rem;
   font-family: $fontelegante;
+
 
   .box-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: $colormain;
+    font-size: 1rem;
 
     li {
       list-style-type: none;

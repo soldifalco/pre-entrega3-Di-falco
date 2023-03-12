@@ -1,0 +1,19 @@
+.box-footer{
+    @include mobile{
+        flex-direction: column;
+    }
+}
+
+.right-area{
+    @include mobile{
+        flex-direction: column;
+    }
+}
+
+.promos{
+    flex-direction: column;
+    h5{
+        font-size: 1rem;
+    }
+  
+}

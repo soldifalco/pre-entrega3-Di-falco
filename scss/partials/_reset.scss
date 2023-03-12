@@ -21,3 +21,15 @@ body {
   grid-template-columns: repeat($columns, 1fr);
   gap: $espacio;
 }
+
+@mixin mobile{
+  @media screen and (max-width:480px) {
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media screen and (max-width:480px) {
+    @content;
+  }
+}
