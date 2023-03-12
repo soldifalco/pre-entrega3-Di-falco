@@ -24,6 +24,7 @@ main {
 main {
   .estilo-title {
     @extend %titulos;
+    font-size: 3rem;
   }
   .grid {
     @include grid(3, 1rem);
@@ -75,9 +76,9 @@ main {
       margin-inline: 1rem;
       padding-inline: 1rem;
       &:hover {
-        border: 2px solid orange;
-        color: red;
-        border-radius: 30%;
+        
+        color: orangered;
+        border-radius: 20px;
         padding-inline: 1rem;
       }
     }

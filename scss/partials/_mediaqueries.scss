@@ -1,3 +1,6 @@
+
+/*******footer****/
+
 .box-footer{
     @include mobile{
         flex-direction: column;
@@ -10,10 +13,37 @@
     }
 }
 
+/*******pag-index sección promos*******/
+
 .promos{
+    @include mobile{
     flex-direction: column;
-    h5{
-        font-size: 1rem;
+
     }
+
   
 }
+
+
+
+/*******pag-menú******/
+
+
+.grid{
+    @include tablet{
+        flex-direction: column;
+    }
+}
+
+.grid{
+    @include mobile{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+

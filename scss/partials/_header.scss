@@ -16,6 +16,10 @@ header{
             border-radius: 20px;
             border: 1px solid $colormain;
             padding-inline: 1rem;
+            &:hover{
+                color: rgba(255, 166, 0, 0.952);
+                text-shadow: 1px -1px 1px $colormain;
+            }
         }
         
         .nav-estilo {
@@ -23,7 +27,7 @@ header{
             font-family: $fontsecondary;
             font-size: 1.5rem;
             &:hover{
-    color: rgb(185, 98, 6);
+    color: yellow;
 
             }
       
