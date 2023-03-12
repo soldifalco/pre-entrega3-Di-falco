@@ -34,34 +34,138 @@
 
         <!----para esta página voy a utilizar flexbox----------->
 
+<!------------primera sección con formulario y foto-------->
         
-
+       <div class="title-contacto">
+        <h2>Contacto</h2>
+       </div>
 <section class="contacto">
 
-    <div class="title-contacto">
-        <h2>Contacto</h2>
-    </div>
-    <div class="foto-contacto">
-        <ul>
-            <li><img class="iconos-contacto" src="/asset/phone-contacto.png" alt="telefono-icono">Telefono</li>
-            <li><img class="iconos-contacto" src="/asset/email-contacto.png" alt="contacto-icono">e-mail</li>
-            <li><img class="iconos-contacto" src="/asset/facebook-ico.svg" alt="facebook-ico">facebook</li>
-            <li><img class="iconos-contacto" src="/asset/instagram-contacto.png" alt="instagram-contacto">instagram</li>
-            <li><img class="iconos-contacto"src="/asset/whatssapp-contacto.png" alt="whatssapp-contacto">whatsapp</li>
-            <li><img class="iconos-contacto" src="/asset/google_map-contacto.png" alt="google_map-contacto">Ubicación</li>
-        </ul>
+    
 
+    <form action="">
+        <div class="formulario">
+
+        <h3>C<span>ontacto</span></h3>
+
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Escriba su nombre aqui" required>
+
+        <label for="">Apellido</label>
+        <input type="text" id="Apellido" placeholder="Escriba su apellido aqui" required>
+        
+        <label for="nombre">E-MAIL</label>
+        <input type="email" id="email" placeholder="Escriba su email aqui" required>
+
+        <label for="nombre">telefono</label>
+        <input type="text" id="telefono" placeholder="Escriba su numero aqui" required>
+
+        <label for="comentarios">comentarios</label>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escriba su comentario" required></textarea>
+
+        <input class="btn-form" type="submit" value="enviar comentario">
+        <input class="btn-form" type="reset" value="reset">
+        </div>
+    </form>
+
+    <div">
+        <img class="img-contacto" src="/images/contacto-img.webp" alt="contacto-img">
+    </div>
+</section>
+    
+
+
+<!----------segunda sección con información de contacto de la empresa y redes sociales-->
+
+<section class="redes-contacto">
+
+    <div class="redes-title">
+        <h4>SEGUINOS <span> EN NUESTRAS REDES</span></h4>
     </div>
    
+    <div class="datos">
+        <img class="iconos" src="/asset/facebook-contacto.png" alt="facebook-contacto">
+        <img class="iconos" src="/asset/instagram-contacto.png" alt="instagram-contacto">
+        <img class="iconos" src="/asset/whatssapp-contacto.png" alt="whatssapp-contacto">
 
-
-</section>
-
-
-
-        
+       </div>
+    
+       <div class="contacto-items">
+        <h3 class="contactanos-title">CONTAC<span>TANOS</span></h3>
+        <img src="../asset/phone-contacto.png" alt="phone-contacto"><h5  class="contacto-items--datos">TELE<span>FONO: </span>(011) - 2233- 4455</h5>
+        <img src="../asset/email-contacto.png" alt="email-contacto"><h5 class="contacto-items--datos">E-<span>MAIL: </span> SUN!¡RESTO@GMAIL.COM</h5>
+        <img src="../asset/google_map-contacto.png" alt="google_map-contacto"><h5  class="contacto-items--datos">UBICA<span>CIÓN: </span>RIVADAVIA, RAMOS MEJÍA, BUENOS AIRES.</h5>
+       </div>
 
     </main>
+
+     <!------FOOTER HECHO CON FLEXBOX------->
+
+
+     <footer>
+        <div class="box-footer">
+
+            <div class="text-center">
+                <ul>
+                    <li>
+                        <p>Contacto</p>
+                    </li>
+                    
+                    <li>
+                        <p>telefono:(011)- 2233- 4455.</p>
+                    </li>
+                    <li>
+                        <p>E-mail:</b> sun!¡resto@gmail.com</p>
+                    </li>
+                    <li>
+                        <p>
+Dirección: Rivadavia 2233,Buenos Aires, Argentina.
+                        </p>
+                    
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <a href="/index.html">SUN!¡RESTÓ</a>
+                    </li>
+
+                    <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                    </li>
+                    <li><a href="./pages/menu.html">Menú</a></li>
+                    <li><a href="./pages/reservas.html">Reservas</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+
+            </div>
+
+            <div class="right-area">
+                <ul>
+                    <li>
+                        <h6>NEWSLETTER</h6>
+                    </li>
+                </ul>
+                <hr>
+                <form action="">
+                    <p>Para recibir información de nuevas promos y novedades dejanos tu e-mail</p>
+                    <input type="email">
+                    <button type="submit">Enviar</button>
+                    <hr>
+                    <div class="redes">
+                        <i><img class="redes-icon" src="../asset/facebook-ico.svg" alt="facebook-ico"></i>
+                        <i><img class="redes-icon" src="../asset/instagram-ico.svg" alt="instagram"></i>
+                        <i><img class="redes-icon" src="../asset/whatsapp_.svg" alt="whatsapp_"></i>
+                </form>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div>
+            </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
 

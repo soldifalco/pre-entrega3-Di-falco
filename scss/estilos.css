@@ -13,26 +13,23 @@ body {
 
 /***************MIXIN***********/
 /***********extend*************/
-.title-contacto, main .estilo-title {
+main .title-contacto, main .estilo-title {
   color: tomato;
   text-align: center;
   padding-inline: 1rem;
   margin: 2rem;
-  font-weight: bolder;
-  font-family: "Phudu", cursive;
-  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
   text-shadow: 2px 2px 2px black;
   padding: 2rem;
 }
-.title-contacto:hover, main .estilo-title:hover {
+main .title-contacto:hover, main .estilo-title:hover {
   color: orange;
-  background-color: black;
 }
 
-.iconos-contacto {
+main .redes-contacto .datos .iconos {
   width: 40px;
-  border-radius: 20px;
-  border: 1px solid;
   margin: 1rem;
 }
 
@@ -372,6 +369,23 @@ main .btn-reservas_menu a:hover {
   .promos {
     flex-direction: column;
   }
+} /*******pag-contacto***********/
+@media screen and (max-width: 768px) {
+  .contacto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contacto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.img-contacto {
+  width: 300px;
 }
 
 /*******pag-menú******/
@@ -385,4 +399,90 @@ main .btn-reservas_menu a:hover {
   .grid {
     flex-direction: column;
   }
+}
+
+main .contacto {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .contacto .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 400px;
+  text-align: center;
+}
+main .contacto .formulario h3 {
+  color: orange;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+main .contacto .formulario span {
+  color: tomato;
+}
+main .contacto .formulario label {
+  color: orange;
+  font-size: 1rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
+}
+main .contacto .formulario input {
+  border: 4px solid orangered;
+  border-bottom: 3px solid orange;
+}
+main .contacto .formulario .btn-form {
+  color: orange;
+  padding-inline: 30px;
+  background-color: black;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 900;
+  border-radius: 20px;
+}
+main .contacto .img-contacto {
+  width: 600px;
+}
+main .redes-contacto {
+  background-color: black;
+  margin-top: 3rem;
+  border-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .redes-contacto .datos {
+  display: flex;
+  justify-content: center;
+}
+main .redes-contacto .redes-title, main .redes-contacto .contacto-items .contactanos-title {
+  color: tomato;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 900;
+  text-align: center;
+}
+main .redes-contacto .redes-title span, main .redes-contacto .contacto-items .contactanos-title span {
+  color: orange;
+}
+main .redes-contacto .contacto-items {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .redes-contacto .contacto-items .contacto-items--datos {
+  color: orangered;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.1rem;
+}
+main .redes-contacto .contacto-items .contacto-items--datos span {
+  color: rgb(170, 119, 23);
 }/*# sourceMappingURL=estilos.css.map */

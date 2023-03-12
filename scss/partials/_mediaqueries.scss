@@ -25,6 +25,28 @@
 }
 
 
+/*******pag-contacto***********/
+
+.contacto {
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.contacto {
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+.img-contacto{
+    width: 300px;
+}
+
+
+
 
 /*******pag-menú******/
 

@@ -14,21 +14,26 @@ $fontelegante: "Gentium Book Plus", serif;
   text-align: center;
   padding-inline: 1rem;
   margin: 2rem;
-  font-weight: bolder;
-  font-family: $fontmain;
-  font-size: 3rem;
+  font-weight: 900;
+  font-family: $fontsecondary;
+  font-size: 4rem;
   text-shadow: 2px 2px 2px black;
   padding: 2rem;
   &:hover {
     color: orange;
-    background-color: black;
+   
   }
 }
 
 
 %iconos {
   width: 40px;
-  border-radius: 20px;
-  border: 1px solid;
   margin: 1rem;
+  
+}
+
+%enlaces{
+  text-decoration: none;
+  color:$fontsecondary;
+  list-style-type: none;
 }
