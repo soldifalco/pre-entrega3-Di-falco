@@ -30,76 +30,61 @@
         </nav>
     </header>
 
-    
-    <!----------esta pagina fué realizada con form de bootstrap -->
-
+    <!-----La secciòn del formulario la realice con flexbox y una imagen de fondo-->
     <main>
-
-
-        <section class="formulario-reserva container">
-
-            <div>
-
-                <h2 class="reserva-title">RESER<span>VAS</span></h2>
-            </div>
-<form class="row g-3 needs-validation m-5" novalidate>
-  <div class="col-md-4 position-relative">
-    <label for="validationTooltip01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
-    <div class="valid-tooltip">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4 position-relative">
-    <label for="validationTooltip02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
-    <div class="valid-tooltip">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4 position-relative">
-    <label for="validationTooltipUsername" class="form-label">Username</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-      <div class="invalid-tooltip">
-        Please choose a unique and valid username.
+     
+      <div class="reserva-title">
+        <h2>RESER<span>VAS</span></h2>
       </div>
-    </div>
-  </div>
-  <div class="col-md-6 position-relative">
-    <label for="validationTooltip03" class="form-label">City</label>
-    <input type="text" class="form-control" id="validationTooltip03" required>
-    <div class="invalid-tooltip">
-      Please provide a valid city.
-    </div>
-  </div>
-  <div class="col-md-3 position-relative">
-    <label for="validationTooltip04" class="form-label">State</label>
-    <select class="form-select" id="validationTooltip04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>...</option>
-    </select>
-    <div class="invalid-tooltip">
-      Please select a valid state.
-    </div>
-  </div>
-  <div class="col-md-3 position-relative">
-    <label for="validationTooltip05" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="validationTooltip05" required>
-    <div class="invalid-tooltip">
-      Please provide a valid zip.
-    </div>
-  </div>
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </div>
+       <section class="reservas">
+<form action="">
+
+
+  <label for="nombre"></label>
+  <input  type="text" id="nombre" placeholder="Escriba su nombre aqui" required>
+
+  <label for=""></label>
+  <input type="text" id="Apellido" placeholder="Escriba su apellido aqui" required>
+
+
+  <label for="nombre" class="label-reservas"></label>
+        <input  type="email" id="email" placeholder="Escriba su email aqui" required>
+
+        <label for="nombre"></label>
+        <input type="text" id="telefono" placeholder="Escriba su numero aqui" required>
+
+        <label for=" comensales"></label>
+        <input type="number" id="comensales" placeholder="cantidad de comensales" required>
+
+        <select name="" id="">
+          <option disabled selected>Elige un horario</option>
+
+          <option>20-21 hs</option>
+          <option>21-22 hs</option>
+          <option>22-00 hs</option>
+        </select>
+
+        <input class="btn-reservas" type="submit" value="Enviar reserva">
+        <input class="btn-reservas" type="reset" value="reset">
+
+
 </form>
 
-</section>
+
+       </section>
 
 
-    </main>
+
+
+    
+
+  
+
+
+
+
+  
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
 
 </body>

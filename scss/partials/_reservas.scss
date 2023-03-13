@@ -1,11 +1,55 @@
 main{
 
-    .formulario-reserva{
-        margin: 2rem;
-    }
-
 
     .reserva-title{
         @extend %titulos;
     }
+
+
+
+    .form-title {
+        color: $colorsecondary;
+        text-align: center;
+        margin: 1rem;
+        text-shadow: 1px -1px 1px $colormain;
+
+    }
+
+    form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+
+
+    }
+
+
+    .reservas{
+        background-image: url("/images/carne-reservas.jpg");
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            
+   
+            .btn-reservas{
+                background-color: $colorsecondary;
+                color: black;
+                border-radius: 20px;
+                border: 1px solid $colorsecondary;
+                padding-inline: 2rem;
+                font-family: $fontelegante;
+                font-weight: 800;
+            }
+
+
+   
+        }
+}
 }
