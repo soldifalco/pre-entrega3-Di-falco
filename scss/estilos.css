@@ -500,9 +500,9 @@ main .reservas {
 }
 main .reservas form {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 1rem;
 }
 main .reservas form .btn-reservas {
