@@ -36,10 +36,7 @@ main .redes-contacto .datos .iconos {
   margin: 1rem;
 }
 
-header {
-  /*************PAG-INDEX***********/
-  /************BANNER DE BIENVENIDA***********/
-}
+
 header nav .btn__nav {
   background-color: orangered;
   color: orangered;
@@ -496,13 +493,6 @@ main .form-title {
   margin: 1rem;
   text-shadow: 1px -1px 1px orangered;
 }
-main form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
 main .reservas {
   background-image: url("/images/carne-reservas.jpg");
 }
@@ -511,7 +501,7 @@ main .reservas form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 main .reservas form .btn-reservas {
   background-color: orange;
@@ -521,4 +511,13 @@ main .reservas form .btn-reservas {
   padding-inline: 2rem;
   font-family: "Gentium Book Plus", serif;
   font-weight: 800;
+}
+main .reserva-cartel {
+  border-radius: 20px;
+  margin: 3rem;
+  color: black;
+  font-weight: 900;
+  background-color: orange;
+  text-shadow: 1px -1px 1px 1px black;
+  font-family: "Phudu", cursive;
 }/*# sourceMappingURL=estilos.css.map */
