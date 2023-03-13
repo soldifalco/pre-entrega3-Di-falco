@@ -5,16 +5,12 @@ main{
     
     } 
 .contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex,center,center);
     text-align: center;
 
 
     .formulario{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    @include flex(flex,center,center);
         flex-direction: column;
         gap: 0.5rem;
         width: 400px;
@@ -58,6 +54,7 @@ main{
 
     .img-contacto{
         width: 600px;
+
     }
 
 }  
@@ -65,20 +62,21 @@ main{
     .redes-contacto{
         margin-top: 3rem;
         border-radius: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    @include flex(flex,center,center);
         align-items: center;
         
 
 
         .datos{
-            display: flex;
-            justify-content: center;
+            
+    @include flex(flex,center,center)
+    
+     }
             
 
             .iconos{
                 @extend %iconos;
+
             }
 
             
@@ -99,11 +97,12 @@ main{
    }
   .contacto-items{
     padding: 2rem;
-    display: flex;
     gap: 1rem;
+    @include flex(flex,center,center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
+
+    
 
     
 
@@ -116,6 +115,8 @@ main{
     font-family: $fontsecondary;
     letter-spacing: 0.1rem;
 
+
+
     span{
         color: rgb(170, 119, 23);
     }
@@ -124,4 +125,4 @@ main{
 }
 
     }
-}
+
