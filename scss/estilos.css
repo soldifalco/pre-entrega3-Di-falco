@@ -13,18 +13,21 @@ body {
 
 /***************MIXIN***********/
 /***********extend*************/
-main .title-contacto, main .estilo-title {
-  color: tomato;
+main .reserva-title, main .title-contacto, main .estilo-title {
+  color: orangered;
   text-align: center;
   padding-inline: 1rem;
   margin: 2rem;
   font-weight: 900;
   font-family: "Bebas Neue", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 2px black;
   padding: 2rem;
 }
-main .title-contacto:hover, main .estilo-title:hover {
+main .reserva-title span, main .title-contacto span, main .estilo-title span {
+  color: orange;
+}
+main .reserva-title:hover, main .title-contacto:hover, main .estilo-title:hover {
   color: orange;
 }
 
@@ -33,29 +36,27 @@ main .redes-contacto .datos .iconos {
   margin: 1rem;
 }
 
-header {
-  /*************PAG-INDEX***********/
-  /************BANNER DE BIENVENIDA***********/
-}
+*****BANNER DE BIENVENIDA***********/
+
 header nav .btn__nav {
-  background-color: tomato;
+  background-color: orangered;
   color: black;
-  border: 2px solid tomato;
+  border: 2px solid orangered;
   border-radius: 20px;
 }
 header nav .logo {
-  color: tomato;
+  color: orangered;
   font-family: "Phudu", cursive;
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 1px -1px 1px;
   border-radius: 20px;
-  border: 1px solid tomato;
+  border: 1px solid orangered;
   padding-inline: 1rem;
 }
 header nav .logo:hover {
   color: rgba(255, 166, 0, 0.952);
-  text-shadow: 1px -1px 1px tomato;
+  text-shadow: 1px -1px 1px orangered;
 }
 header nav .nav-estilo {
   color: orange;
@@ -90,7 +91,7 @@ header .banner .bienvenida {
   text-align: center;
 }
 header .banner .bienvenida h1 {
-  color: tomato;
+  color: orangered;
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 20px;
@@ -99,7 +100,7 @@ header .banner .bienvenida h1 {
   font-family: "Phudu", cursive;
 }
 header .banner .bienvenida h2 {
-  color: tomato;
+  color: orangered;
   font-size: 2rem;
   font-weight: bolder;
   text-shadow: 2px -2px 2px black;
@@ -131,7 +132,7 @@ footer .box-footer {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  color: tomato;
+  color: orangered;
   font-size: 1rem;
 }
 footer .box-footer li {
@@ -142,7 +143,7 @@ footer .box-footer li img {
 }
 footer .box-footer a {
   text-decoration: none;
-  color: tomato;
+  color: orangered;
 }
 footer .box-footer a:hover {
   color: orange;
@@ -152,11 +153,11 @@ footer .right-area {
   text-align: center;
 }
 footer .right-area imput {
-  border: 3px solid tomato;
+  border: 3px solid orangered;
   background-color: orange;
 }
 footer .right-area button {
-  background-color: tomato;
+  background-color: orangered;
 }
 footer .right-area button:hover {
   border: 3px solid orange;
@@ -170,7 +171,7 @@ footer .right-area .redes .redes-icon {
 }
 
 main .seccion--title {
-  color: tomato;
+  color: orangered;
   text-align: center;
   margin: 3rem;
   text-shadow: 2px -2px 2px orange;
@@ -185,13 +186,13 @@ main .servicios {
 }
 main .servicios .servicios--item {
   text-align: center;
-  color: tomato;
+  color: orangered;
   font-family: "Phudu", cursive;
   font-size: 1.5rem;
   background-color: black;
 }
 main .servicios li {
-  color: tomato;
+  color: orangered;
   background-color: black;
   font-family: "Bebas Neue", cursive;
   animation: servicios 1.5s infinite linear alternate;
@@ -226,7 +227,7 @@ main .promos .btn--promos:hover {
   border: 1px solid black;
 }
 main .promos h5 {
-  color: tomato;
+  color: orangered;
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 1px -1px 1px black;
@@ -252,7 +253,7 @@ main .promos p {
   }
 }
 main .card--conocenos {
-  background-color: tomato;
+  background-color: orangered;
   color: black;
   font-family: "Phudu", cursive;
   font-size: 1rem;
@@ -281,7 +282,7 @@ main .card--conocenos p {
 main .nosotros-style {
   color: rgb(249, 193, 90);
   line-height: 50px;
-  box-shadow: 1px -1px 1px tomato;
+  box-shadow: 1px -1px 1px orangered;
   padding-inline: 1rem;
   margin-inline: 1rem;
   align-items: center;
@@ -291,7 +292,7 @@ main .nosotros-style {
 }
 main .nosotros-style:hover {
   box-shadow: 3px -3px 3px black;
-  color: tomato;
+  color: orangered;
 }
 
 main .estilo-title {
@@ -321,7 +322,7 @@ main .grid .grid-items:hover {
   border-left: 3px solid orange;
 }
 main .grid .grid-items h5 {
-  color: tomato;
+  color: orangered;
   font-family: "Gentium Book Plus", serif;
   font-size: 1.5rem;
   text-shadow: 1px -1px 1px black;
@@ -341,7 +342,7 @@ main .btn-reservas_menu a {
   color: orange;
   font-family: "Gentium Book Plus", serif;
   background-color: black;
-  border: 1px solid tomato;
+  border: 1px solid orangered;
   margin-inline: 1rem;
   padding-inline: 1rem;
 }
@@ -424,7 +425,7 @@ main .contacto .formulario h3 {
   font-weight: 900;
 }
 main .contacto .formulario span {
-  color: tomato;
+  color: orangered;
 }
 main .contacto .formulario label {
   color: orange;
@@ -462,7 +463,7 @@ main .redes-contacto .datos {
   justify-content: center;
 }
 main .redes-contacto .redes-title, main .redes-contacto .contacto-items .contactanos-title {
-  color: tomato;
+  color: orangered;
   font-family: "Bebas Neue", cursive;
   font-weight: 900;
   text-align: center;
@@ -485,4 +486,8 @@ main .redes-contacto .contacto-items .contacto-items--datos {
 }
 main .redes-contacto .contacto-items .contacto-items--datos span {
   color: rgb(170, 119, 23);
+}
+
+main .formulario-reserva {
+  margin: 2rem;
 }/*# sourceMappingURL=estilos.css.map */

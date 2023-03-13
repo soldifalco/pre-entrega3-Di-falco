@@ -1,1 +1,11 @@
+main{
 
+    .formulario-reserva{
+        margin: 2rem;
+    }
+
+
+    .reserva-title{
+        @extend %titulos;
+    }
+}
